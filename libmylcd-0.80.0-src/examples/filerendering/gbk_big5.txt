@@ -1,0 +1,51 @@
+                 TABLE V
+    ______________________________________
+    Big5
+                        Encoding Ranges
+    ______________________________________
+    Two-byte Standard Characters
+    First byte range                        0x81-0xfe
+    Second byte ranges                      0x40-0x7e, 0xa1-0xfe
+    
+    One-byte Characters
+    ASCII                                   0x21-0xfe
+    ______________________________________
+Big5 has one and two byte characters.
+Legal byte ranges are shown, above in Table V, as are valid trail byte ranges for those lead bytes.
+
+
+                TABLE VI
+    ______________________________________
+    GBK
+                        Encoding Ranges
+    ______________________________________
+    Two-byte Standard Characters
+    First byte range                        0x81-0xfe
+    Second byte ranges                      0x40-0x7e and 0x80-0xfe
+    
+    One-byte Characters
+    ASCII                                   0x21-0x7e
+    ______________________________________
+GBK has one and two byte characters.
+Legal byte ranges are shown, above in Table VI, as are valid trail byte ranges for those lead bytes. 
+
+
+
+   ______________________________________
+    EUC-CN
+    EUC Code Sets                                Encoding Range
+    ______________________________________
+    Code set 0 (ASCII or GB 1988-89)
+    Byte range                              0x21-0x7e
+    Code set 1 (GB 2312-80)
+    First byte range                        0xa1-0xfe
+    Second byte range                       0xa1-0xfe
+    Code set 2 (unused)
+    Code set 3 (unused)
+    ______________________________________
+EUC-CN (EUC encoded GB 2312-80) is identical to GBK in the 0xa1a1-0xfefe range.
+EUC-CN and GBK may share a mapping table for the purpose of performing the code point mapping check on data in this range.
+EUC-CN has one and two byte characters.
+Legal byte ranges are shown, above in Table I, as are valid trail byte ranges for those lead bytes. 
+
+

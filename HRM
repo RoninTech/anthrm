@@ -1,0 +1,24 @@
+<NotepadPlus>
+    <Project name="HRM">
+        <File name="anthrm.c" />
+        <File name="build32.bat" />
+        <File name="build64.bat" />
+        <File name="clean.bat" />
+        <File name="clean32.bat" />
+        <File name="clean64.bat" />
+        <File name="console.c" />
+        <File name="console.h" />
+        <File name="garminhr.c" />
+        <File name="garminhr.h" />
+        <File name="gccpath.bat" />
+        <File name="helen.ini" />
+        <File name="hrm.rc" />
+        <File name="johndoe.ini" />
+        <File name="libantplus.c" />
+        <File name="libantplus.h" />
+        <File name="mylcdsetup.h" />
+        <File name="paul.ini" />
+        <File name="readme.txt" />
+        <File name="settings.ini" />
+    </Project>
+</NotepadPlus>

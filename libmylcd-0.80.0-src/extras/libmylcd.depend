@@ -1,0 +1,1286 @@
+# depslib dependency file v1.0
+1272216664 source:c:\code\mylcd\src\openparport\openparport.c
+	"mylcd.h"
+	<windows.h>
+	<winioctl.h>
+	<winerror.h>
+	"../device.h"
+	"../lstring.h"
+	"openparport.h"
+
+1312655384 c:\code\mylcd\include\mylcd.h
+	"mylcdconfig.h"
+	"mylcdtypes.h"
+
+1312656170 c:\code\mylcd\include\mylcdconfig.h
+	<stdio.h>
+	<stdint.h>
+	<stdlib.h>
+	<unistd.h>
+	<sys/types.h>
+	<stdarg.h>
+	<ctype.h>
+	<wchar.h>
+
+1312655330 c:\code\mylcd\include\mylcdtypes.h
+
+1288643532 c:\code\mylcd\src\device.h
+
+1299453086 c:\code\mylcd\src\lstring.h
+	<string.h>
+
+1272216438 c:\code\mylcd\src\openparport\openparport.h
+
+1272584684 source:c:\code\mylcd\src\apilock.c
+	"mylcd.h"
+	"memory.h"
+	"sync.h"
+	"apilock.h"
+
+1299791496 c:\code\mylcd\src\memory.h
+
+1287080938 c:\code\mylcd\src\sync.h
+	"pth_sync.h"
+	"win_sync.h"
+
+1272643594 c:\code\mylcd\src\pth_sync.h
+	<sys/time.h>
+	<pthread.h>
+
+1286028652 c:\code\mylcd\src\win_sync.h
+	<windows.h>
+
+1274548104 c:\code\mylcd\src\apilock.h
+
+1297474504 source:c:\code\mylcd\src\bdf.c
+	"mylcd.h"
+	"memory.h"
+	"frame.h"
+	"utils.h"
+	"fileio.h"
+	"device.h"
+	"lstring.h"
+	"bdf.h"
+	"pixel.h"
+	"fonts.h"
+	"sync.h"
+	"misc.h"
+
+1288544272 c:\code\mylcd\src\frame.h
+	"framec.h"
+
+1299703548 c:\code\mylcd\src\framec.h
+
+1272730586 c:\code\mylcd\src\utils.h
+	<stddef.h>
+
+1272215732 c:\code\mylcd\src\fileio.h
+
+1272214494 c:\code\mylcd\src\bdf.h
+
+1299781412 c:\code\mylcd\src\pixel.h
+	"rgbmasks.h"
+
+1273331076 c:\code\mylcd\src\rgbmasks.h
+
+1288555162 c:\code\mylcd\src\fonts.h
+
+1297474640 c:\code\mylcd\src\misc.h
+
+1299023918 source:c:\code\mylcd\src\bmp.c
+	"mylcd.h"
+	"memory.h"
+	"frame.h"
+	"fileio.h"
+	"utils.h"
+	"bmp.h"
+	"pixel.h"
+	"copy.h"
+	"image.h"
+	"sync.h"
+	"misc.h"
+
+1286483786 c:\code\mylcd\src\bmp.h
+
+1299024038 c:\code\mylcd\src\copy.h
+	"utils.h"
+	<string.h>
+
+1272564488 c:\code\mylcd\src\image.h
+
+1288723152 source:c:\code\mylcd\src\chardecode.c
+	"mylcd.h"
+	"apilock.h"
+	"fonts.h"
+	"lstring.h"
+	"memory.h"
+	"utils.h"
+	"utf.h"
+	"html.h"
+	"chardecode.h"
+	"combmarks.h"
+	"cmap.h"
+	"lmath.h"
+
+1272067318 c:\code\mylcd\src\utf.h
+
+1246306128 c:\code\mylcd\src\html.h
+
+1272306394 c:\code\mylcd\src\chardecode.h
+
+1272052708 c:\code\mylcd\src\combmarks.h
+
+1272633606 c:\code\mylcd\src\cmap.h
+
+1299453406 c:\code\mylcd\src\lmath.h
+	<math.h>
+
+1297474746 source:c:\code\mylcd\src\cmap.c
+	"mylcd.h"
+	"memory.h"
+	"utils.h"
+	"cmap.h"
+	"device.h"
+	"lstring.h"
+	"fileio.h"
+	"sync.h"
+	"misc.h"
+
+1299788986 source:c:\code\mylcd\src\convert.c
+	"mylcd.h"
+	"memory.h"
+	"apilock.h"
+	"frame.h"
+	"pixel.h"
+	"copy.h"
+	"convert.h"
+	<string.h>
+	"sync.h"
+	"misc.h"
+	"mmx.h"
+	"mmx_rgb.h"
+
+1291322056 c:\code\mylcd\src\convert.h
+
+1297462084 c:\code\mylcd\src\mmx.h
+	<stdio.h>
+
+1299704546 c:\code\mylcd\src\mmx_rgb.h
+	"mmx_rgb_interpolate.h"
+	"mmx_rgb_packed.h"
+	"mmx_rgb_packed.h"
+	"mmx_rgb_packed.h"
+	"mmx_rgb_packed.h"
+	"mmx_rgb_packed.h"
+	"mmx_rgb_packed.h"
+	"mmx_rgb_packed.h"
+	"mmx_rgb_packed.h"
+	"mmx_rgb_packed.h"
+	"mmx_rgb_packed.h"
+	"mmx_rgb_packed.h"
+	"mmx_rgb_packed.h"
+
+1291223726 c:\code\mylcd\src\mmx_rgb_interpolate.h
+
+1299706774 c:\code\mylcd\src\mmx_rgb_packed.h
+	"mmx.h"
+
+1300314444 source:c:\code\mylcd\src\copy.c
+	<math.h>
+	"mylcd.h"
+	"memory.h"
+	"pixel.h"
+	"copy.h"
+	"mmx.h"
+
+1244039138 source:c:\code\mylcd\src\ddraw\converter.c
+	"mylcd.h"
+	"converter.h"
+	"dd.h"
+	"mmx.h"
+
+1245362638 c:\code\mylcd\src\ddraw\converter.h
+
+1272222926 c:\code\mylcd\src\ddraw\dd.h
+	<ddraw.h>
+	"converter.h"
+
+1227451710 c:\code\mylcd\src\ddraw\mmx.h
+
+1307737106 source:c:\code\mylcd\src\ddraw\dd.c
+	"mylcd.h"
+	<signal.h>
+	"../device.h"
+	"../display.h"
+	"../memory.h"
+	"../convert.h"
+	"converter.h"
+	"dd.h"
+	"../sync.h"
+	"../misc.h"
+
+1272305444 c:\code\mylcd\src\display.h
+	"sync.h"
+
+1288522486 source:c:\code\mylcd\src\ddraw\ddrawdisplay.c
+	"mylcd.h"
+	"../memory.h"
+	"../utils.h"
+	"../pixel.h"
+	"../device.h"
+	"../lstring.h"
+	"../convert.h"
+	"ddrawdisplay.h"
+	"dd.h"
+
+1272216516 c:\code\mylcd\src\ddraw\ddrawdisplay.h
+
+1297475026 source:c:\code\mylcd\src\device.c
+	"mylcd.h"
+	"memory.h"
+	"utils.h"
+	"frame.h"
+	"device.h"
+	"lstring.h"
+	"display.h"
+	"lmath.h"
+	"pixel.h"
+	"copy.h"
+	"sync.h"
+	"misc.h"
+
+1312656872 source:c:\code\mylcd\src\display.c
+	"mylcd.h"
+	"memory.h"
+	"utils.h"
+	"sync.h"
+	"device.h"
+	"frame.h"
+	"pixel.h"
+	"copy.h"
+	"display.h"
+	"convert.h"
+	"lmath.h"
+	"misc.h"
+
+1312657000 source:c:\code\mylcd\src\dlportio\dlp.c
+	"mylcd.h"
+	<windows.h>
+	"../memory.h"
+	"../device.h"
+	"../lstring.h"
+	"../misc.h"
+	"dlp.h"
+
+1272216438 c:\code\mylcd\src\dlportio\dlp.h
+
+1292252536 source:c:\code\mylcd\src\draw.c
+	"mylcd.h"
+	"memory.h"
+	"utils.h"
+	"pixel.h"
+	"lmath.h"
+	"copy.h"
+	"draw.h"
+	"mmx.h"
+
+1288714836 c:\code\mylcd\src\draw.h
+
+1297475060 source:c:\code\mylcd\src\fileio.c
+	"mylcd.h"
+	"fileio.h"
+	"sync.h"
+	"misc.h"
+
+1297474758 source:c:\code\mylcd\src\fonts.c
+	"mylcd.h"
+	"memory.h"
+	"utils.h"
+	"device.h"
+	"frame.h"
+	"lstring.h"
+	"pixel.h"
+	"fonts.h"
+	"cmap.h"
+	"bdf.h"
+	"print.h"
+	"chardecode.h"
+	"api.h"
+	"sync.h"
+	"misc.h"
+
+1272568064 c:\code\mylcd\src\print.h
+
+1299789144 c:\code\mylcd\src\api.h
+
+1299703472 source:c:\code\mylcd\src\frame.c
+	"mylcd.h"
+	"memory.h"
+	"apilock.h"
+	"pixel.h"
+	"utils.h"
+	"frame.h"
+	"copy.h"
+	"draw.h"
+	"misc.h"
+
+1299704128 source:c:\code\mylcd\src\framec.c
+	<windows.h>
+	"mylcd.h"
+	"memory.h"
+	"framec.h"
+	"frame.h"
+
+1312657128 source:c:\code\mylcd\src\ft245\ft245.c
+	"mylcd.h"
+	<windows.h>
+	"../device.h"
+	"../memory.h"
+	"../lstring.h"
+	"../misc.h"
+	"FTD2XX.H"
+	"ft245.h"
+
+1174331532 c:\code\mylcd\src\ft245\ftd2xx.h
+
+1272216374 c:\code\mylcd\src\ft245\ft245.h
+
+1312657162 source:c:\code\mylcd\src\ftdi\ftdi.c
+	"mylcd.h"
+	"../device.h"
+	"../memory.h"
+	"../lstring.h"
+	"../misc.h"
+	"ftdi.h"
+
+1272216516 c:\code\mylcd\src\ftdi\ftdi.h
+	"libs/libftdi.h"
+
+1208717702 c:\code\mylcd\src\ftdi\libs\libftdi.h
+	<usb.h>
+
+1244039202 source:c:\code\mylcd\src\ftdi\libs\libftdi.c
+	"mylcd.h"
+	<string.h>
+	<errno.h>
+	<stdio.h>
+	<usb.h>
+	"../../memory.h"
+	"libftdi.h"
+	<sys/ioctl.h>
+	<sys/time.h>
+	<sys/select.h>
+	<sys/types.h>
+	<unistd.h>
+	<linux/usbdevice_fs.h>
+
+1272615178 source:c:\code\mylcd\src\g15\g15display.c
+	"mylcd.h"
+	"../memory.h"
+	"../frame.h"
+	"../device.h"
+	"../sync.h"
+	"../convert.h"
+	"../lstring.h"
+	"../misc.h"
+	"lglcd.dll/lg_lcd.h"
+	"g15display.h"
+	"g15.h"
+
+1244153728 c:\code\mylcd\src\g15\lglcd.dll\lg_lcd.h
+	"lglcd.h"
+
+1242985702 c:\code\mylcd\src\g15\lglcd.dll\lglcd.h
+	<windows.h>
+
+1272218690 c:\code\mylcd\src\g15\g15display.h
+
+1272219970 c:\code\mylcd\src\g15\g15.h
+	"lglcd.dll/lglcd.h"
+
+1291303958 source:c:\code\mylcd\src\g15libusb\g15_libusb.c
+	"mylcd.h"
+	"../memory.h"
+	"../frame.h"
+	"../device.h"
+	"../lstring.h"
+	"../misc.h"
+	"../sync.h"
+	"libg15/libg15.h"
+	"g15_libusb.h"
+	"startframe.h"
+	"endframe.h"
+
+1227453588 c:\code\mylcd\src\g15libusb\libg15\libg15.h
+
+1272216438 c:\code\mylcd\src\g15libusb\g15_libusb.h
+
+1246029724 c:\code\mylcd\src\g15libusb\startframe.h
+
+1246029752 c:\code\mylcd\src\g15libusb\endframe.h
+
+1293549588 source:c:\code\mylcd\src\g15libusb\libg15\libg15.c
+	"mylcd.h"
+	"../../sync.h"
+	<errno.h>
+	<usb.h>
+	"libg15.h"
+
+1306266418 source:c:\code\mylcd\src\g19\g19display.c
+	"mylcd.h"
+	"../memory.h"
+	"../frame.h"
+	"../device.h"
+	"../sync.h"
+	"../convert.h"
+	"../lstring.h"
+	"../misc.h"
+	"../g15/lglcd.dll/lg_lcd.h"
+	"g19display.h"
+
+1272216516 c:\code\mylcd\src\g19\g19display.h
+	"../g15/lglcd.dll/lglcd.h"
+
+1272286862 source:c:\code\mylcd\src\gb18030.c
+	"mylcd.h"
+
+1272286862 source:c:\code\mylcd\src\gb2312.c
+	"mylcd.h"
+	"gb2313.h"
+
+1246306128 c:\code\mylcd\src\gb2313.h
+
+1272286862 source:c:\code\mylcd\src\hz.c
+	"mylcd.h"
+	"gb2313.h"
+
+1311369468 source:c:\code\mylcd\src\image.c
+	"mylcd.h"
+	"memory.h"
+	"frame.h"
+	"fileio.h"
+	"lstring.h"
+	"utils.h"
+	"image.h"
+	"pixel.h"
+	"copy.h"
+	"bmp.h"
+	"tga.h"
+	"pgm.h"
+	"lpng.h"
+	"ljpg.h"
+	"sync.h"
+	"misc.h"
+
+1292252496 c:\code\mylcd\src\tga.h
+
+1253387722 c:\code\mylcd\src\pgm.h
+
+1255275554 c:\code\mylcd\src\lpng.h
+
+1284058342 c:\code\mylcd\src\ljpg.h
+
+1272286862 source:c:\code\mylcd\src\iso2022.c
+	"mylcd.h"
+	<string.h>
+	"chardecode.h"
+	"fonts.h"
+
+1293548694 source:c:\code\mylcd\src\jis.c
+	"mylcd.h"
+	"fonts.h"
+	"utf.h"
+	"chardecode.h"
+
+1311369530 source:c:\code\mylcd\src\jpg\jpg.c
+	<stdio.h>
+	<stdlib.h>
+	"mylcd.h"
+	"../memory.h"
+	"../pixel.h"
+	"../frame.h"
+	"../fileio.h"
+	"../tga.h"
+	"../convert.h"
+	"../copy.h"
+	"jpeglib.h"
+	"jpg.h"
+	<setjmp.h>
+
+1258375482 c:\code\mylcd\src\jpg\jpeglib.h
+	"jconfig.h"
+	"jmorecfg.h"
+	"jpegint.h"
+	"jerror.h"
+
+1284199126 c:\code\mylcd\src\jpg\jconfig.h
+
+1283972524 c:\code\mylcd\src\jpg\jmorecfg.h
+
+1284060260 c:\code\mylcd\src\jpg\jpg.h
+
+1272615026 source:c:\code\mylcd\src\ks0108\ks0108.c
+	"mylcd.h"
+	"../frame.h"
+	"../memory.h"
+	"../utils.h"
+	"../pixel.h"
+	"../device.h"
+	"../display.h"
+	"../lstring.h"
+	"../copy.h"
+	"ks0108.h"
+
+1272216438 c:\code\mylcd\src\ks0108\ks0108.h
+
+1297474442 source:c:\code\mylcd\src\lcd.c
+	<signal.h>
+	"mylcd.h"
+	"lcd.h"
+	"memory.h"
+	"apilock.h"
+	"device.h"
+	"lstring.h"
+	"pixel.h"
+	"frame.h"
+	"display.h"
+	"copy.h"
+	"utils.h"
+	"bdf.h"
+	"print.h"
+	"cmap.h"
+	"fonts.h"
+	"fileio.h"
+	"chardecode.h"
+	"scroll.h"
+	"misc.h"
+	"usb13700/usb13700exp.h"
+	"pcf8814/pcf8814_sio.h"
+	"pcf8814/pcf8814_spi.h"
+	"pcd8544/pcd8544_sio.h"
+	"pcd8544/pcd8544_spi.h"
+	"s1d15g14/s1d15g14_sio.h"
+	"s1d15g14/s1d15g14_spi.h"
+	"pcf8833/pcf8833_spi.h"
+	"s1d15g10/s1d15g10_spi.h"
+	"usbd480libusb/usbd480.h"
+	"usbd480hid/usbd480hid.h"
+	"usbd480dll/usbd480dll.h"
+	"winio/winio.h"
+	"null/nullport.h"
+	"null/nulldisplay.h"
+	"dlportio/dlp.h"
+	"sdl/sdldisplay.h"
+	"openparport/openparport.h"
+	"ddraw/ddrawdisplay.h"
+	"ks0108/ks0108.h"
+	"sed1565/sed1565sio.h"
+	"sed1565/sed1565pio.h"
+	"linux/linux.h"
+	"serial/serial.h"
+	"ledcard/ledcard.h"
+	"ft245/ft245.h"
+	"ftdi/ftdi.h"
+	"t6963c/t6963c.h"
+	"sed1335/sed1335.h"
+	"usb13700dll/usb13700dll.h"
+	"usb13700libusb/usb13700_libusb.h"
+	"g15/g15display.h"
+	"g15/g15.h"
+	"g19/g19display.h"
+	"g15libusb/g15_libusb.h"
+
+1272287700 c:\code\mylcd\src\lcd.h
+
+1272312814 c:\code\mylcd\src\scroll.h
+
+1272216516 c:\code\mylcd\src\usb13700\usb13700exp.h
+	"../usb13700libusb/libusb13700/libusb13700.h"
+	"display_lib_USB13700.h"
+	"usb13700_common.h"
+
+1242958002 c:\code\mylcd\src\usb13700libusb\libusb13700\libusb13700.h
+
+1242983976 c:\code\mylcd\src\usb13700\display_lib_usb13700.h
+	<windows.h>
+
+1243954690 c:\code\mylcd\src\usb13700\usb13700_common.h
+
+1272216516 c:\code\mylcd\src\pcf8814\pcf8814_sio.h
+
+1272216516 c:\code\mylcd\src\pcf8814\pcf8814_spi.h
+	"../usb13700/usb13700_common.h"
+
+1272216438 c:\code\mylcd\src\pcd8544\pcd8544_sio.h
+
+1272216438 c:\code\mylcd\src\pcd8544\pcd8544_spi.h
+	"../usb13700/usb13700_common.h"
+
+1272216516 c:\code\mylcd\src\s1d15g14\s1d15g14_sio.h
+
+1272216516 c:\code\mylcd\src\s1d15g14\s1d15g14_spi.h
+	"../usb13700/usb13700_common.h"
+
+1272216516 c:\code\mylcd\src\pcf8833\pcf8833_spi.h
+	"../usb13700/usb13700_common.h"
+
+1272216516 c:\code\mylcd\src\s1d15g10\s1d15g10_spi.h
+	"../usb13700/usb13700_common.h"
+
+1272216516 c:\code\mylcd\src\usbd480libusb\usbd480.h
+
+1272216516 c:\code\mylcd\src\usbd480hid\usbd480hid.h
+
+1274699240 c:\code\mylcd\src\usbd480dll\usbd480dll.h
+
+1272216386 c:\code\mylcd\src\winio\winio.h
+
+1272216438 c:\code\mylcd\src\null\nullport.h
+
+1272216438 c:\code\mylcd\src\null\nulldisplay.h
+
+1272216438 c:\code\mylcd\src\sdl\sdldisplay.h
+
+1272216438 c:\code\mylcd\src\sed1565\sed1565sio.h
+
+1272216438 c:\code\mylcd\src\sed1565\sed1565pio.h
+
+1272216438 c:\code\mylcd\src\linux\linux.h
+
+1272216390 c:\code\mylcd\src\serial\serial.h
+	<windows.h>
+
+1272216438 c:\code\mylcd\src\ledcard\ledcard.h
+
+1272216516 c:\code\mylcd\src\t6963c\t6963c.h
+
+1272216378 c:\code\mylcd\src\sed1335\sed1335.h
+
+1272216438 c:\code\mylcd\src\usb13700dll\usb13700dll.h
+	"../usb13700/usb13700_common.h"
+
+1272216516 c:\code\mylcd\src\usb13700libusb\usb13700_libusb.h
+
+1312657162 source:c:\code\mylcd\src\ledcard\ledcard.c
+	"mylcd.h"
+	<windows.h>
+	"../device.h"
+	"../display.h"
+	"../frame.h"
+	"../memory.h"
+	"../pixel.h"
+	"../copy.h"
+	"../lstring.h"
+	"../misc.h"
+	"ledcard.h"
+
+1272286862 source:c:\code\mylcd\src\libusb_dyn.c
+	"mylcd.h"
+	<errno.h>
+	<usb.h>
+	"libusb_dyn.h"
+
+1246306128 c:\code\mylcd\src\libusb_dyn.h
+
+1272216710 source:c:\code\mylcd\src\linux\linux.c
+	"mylcd.h"
+	<sys/io.h>
+	<sys/perm.h>
+	"../device.h"
+	"../lstring.h"
+	"linux.h"
+
+1284664692 source:c:\code\mylcd\src\ljpg.c
+	"mylcd.h"
+	"memory.h"
+	"convert.h"
+	"frame.h"
+	"jpg/jpg.h"
+	"ljpg.h"
+	"image.h"
+
+1299453362 source:c:\code\mylcd\src\lmath.c
+	"mylcd.h"
+
+1297474772 source:c:\code\mylcd\src\lpng.c
+	"mylcd.h"
+	<png.h>
+	"memory.h"
+	"utils.h"
+	"frame.h"
+	"fileio.h"
+	"lmath.h"
+	"lpng.h"
+	"pixel.h"
+	"image.h"
+	"copy.h"
+	"sync.h"
+	"misc.h"
+
+1299453162 source:c:\code\mylcd\src\lstring.c
+	<string.h>
+	"mylcd.h"
+	"memory.h"
+	"lstring.h"
+	"lmath.h"
+
+1299790036 source:c:\code\mylcd\src\memory.c
+	<string.h>
+	"mylcd.h"
+	"memory.h"
+	"utils.h"
+	"lstring.h"
+	"convert.h"
+	"sync.h"
+	"misc.h"
+
+1297888118 source:c:\code\mylcd\src\misc.c
+	<windows.h>
+	<string.h>
+	<time.h>
+	"mylcd.h"
+	"lstring.h"
+	"sync.h"
+	"misc.h"
+
+1272615008 source:c:\code\mylcd\src\null\nulldisplay.c
+	"mylcd.h"
+	"../utils.h"
+	"../frame.h"
+	"../device.h"
+	"../lstring.h"
+	"../pixel.h"
+	"../memory.h"
+	"../copy.h"
+	"nulldisplay.h"
+
+1272216710 source:c:\code\mylcd\src\null\nullport.c
+	"mylcd.h"
+	"../device.h"
+	"../lstring.h"
+	"nullport.h"
+
+1312655832 source:c:\code\mylcd\src\api.c
+	<windows.h>
+	"mylcd.h"
+	"lcd.h"
+	"memory.h"
+	"apilock.h"
+	"device.h"
+	"lstring.h"
+	"pixel.h"
+	"frame.h"
+	"display.h"
+	"misc.h"
+	"copy.h"
+	"utils.h"
+	"bdf.h"
+	"print.h"
+	"cmap.h"
+	"fonts.h"
+	"fileio.h"
+	"chardecode.h"
+	"textbdf.h"
+	"image.h"
+	"scroll.h"
+	"draw.h"
+	"convert.h"
+	"rotate.h"
+	"api.h"
+
+1272565114 c:\code\mylcd\src\textbdf.h
+
+1272307792 c:\code\mylcd\src\rotate.h
+
+1272615476 source:c:\code\mylcd\src\pcd8544\pcd8544_sio.c
+	"mylcd.h"
+	"../frame.h"
+	"../device.h"
+	"../display.h"
+	"../memory.h"
+	"../pixel.h"
+	"../copy.h"
+	"../lstring.h"
+	"pcd8544_sio.h"
+
+1272615528 source:c:\code\mylcd\src\pcd8544\pcd8544_spi.c
+	"mylcd.h"
+	"../frame.h"
+	"../device.h"
+	"../display.h"
+	"../memory.h"
+	"../pixel.h"
+	"../copy.h"
+	"../lstring.h"
+	"pcd8544_spi.h"
+
+1272615574 source:c:\code\mylcd\src\pcf8814\pcf8814_sio.c
+	"mylcd.h"
+	"../frame.h"
+	"../device.h"
+	"../display.h"
+	"../memory.h"
+	"../pixel.h"
+	"../copy.h"
+	"../lstring.h"
+	"pcf8814_sio.h"
+
+1272615610 source:c:\code\mylcd\src\pcf8814\pcf8814_spi.c
+	"mylcd.h"
+	"../frame.h"
+	"../device.h"
+	"../display.h"
+	"../memory.h"
+	"../pixel.h"
+	"../copy.h"
+	"../lstring.h"
+	"pcf8814_spi.h"
+
+1272615674 source:c:\code\mylcd\src\pcf8833\pcf8833_spi.c
+	"mylcd.h"
+	"../frame.h"
+	"../device.h"
+	"../display.h"
+	"../memory.h"
+	"../pixel.h"
+	"../copy.h"
+	"../lstring.h"
+	"pcf8833_spi.h"
+
+1272564812 source:c:\code\mylcd\src\pgm.c
+	<stdio.h>
+	<stdlib.h>
+	<string.h>
+	"mylcd.h"
+	"memory.h"
+	"fileio.h"
+	"utils.h"
+	"lstring.h"
+	"frame.h"
+	"pixel.h"
+	"pgm.h"
+	"image.h"
+
+1292251614 source:c:\code\mylcd\src\pixel.c
+	"mylcd.h"
+	"pixel.h"
+
+1290264264 source:c:\code\mylcd\src\print.c
+	"mylcd.h"
+	<string.h>
+	"memory.h"
+	"utils.h"
+	"frame.h"
+	"fonts.h"
+	"lstring.h"
+	"bdf.h"
+	"print.h"
+	"draw.h"
+	"chardecode.h"
+	"textbdf.h"
+	"textbitmap.h"
+	"api.h"
+
+1288555630 c:\code\mylcd\src\textbitmap.h
+
+1292790450 source:c:\code\mylcd\src\pth_sync.c
+	"mylcd.h"
+	"pth_sync.h"
+
+1272286862 source:c:\code\mylcd\src\pthreads_dyn.c
+	"mylcd.h"
+	"pthreads_dyn.h"
+
+1246306128 c:\code\mylcd\src\pthreads_dyn.h
+	<windows.h>
+	<pthread.h>
+
+1300807302 source:c:\code\mylcd\src\rotate.c
+	"mylcd.h"
+	<math.h>
+	"frame.h"
+	"utils.h"
+	"pixel.h"
+	"lmath.h"
+
+1272615704 source:c:\code\mylcd\src\s1d15g10\s1d15g10_spi.c
+	"mylcd.h"
+	"../frame.h"
+	"../device.h"
+	"../display.h"
+	"../memory.h"
+	"../pixel.h"
+	"../copy.h"
+	"../lstring.h"
+	"s1d15g10_spi.h"
+
+1272615770 source:c:\code\mylcd\src\s1d15g14\s1d15g14_sio.c
+	"mylcd.h"
+	"../frame.h"
+	"../device.h"
+	"../display.h"
+	"../memory.h"
+	"../pixel.h"
+	"../draw.h"
+	"../copy.h"
+	"../lstring.h"
+	"s1d15g14_sio.h"
+
+1272615730 source:c:\code\mylcd\src\s1d15g14\s1d15g14_spi.c
+	"mylcd.h"
+	"../frame.h"
+	"../device.h"
+	"../display.h"
+	"../memory.h"
+	"../pixel.h"
+	"../draw.h"
+	"../copy.h"
+	"../lstring.h"
+	"s1d15g14_spi.h"
+
+1272629240 source:c:\code\mylcd\src\scroll.c
+	"mylcd.h"
+	"memory.h"
+	"frame.h"
+	"display.h"
+	"utils.h"
+	"pixel.h"
+	"copy.h"
+	"scroll.h"
+
+1293549720 source:c:\code\mylcd\src\sdl\lsdl.c
+	"mylcd.h"
+	<string.h>
+	<signal.h>
+	"mylcd.h"
+	"../memory.h"
+	"../convert.h"
+	"lsdl.h"
+
+1245366818 c:\code\mylcd\src\sdl\lsdl.h
+	<SDL/SDL.h>
+	<SDL/SDL_syswm.h>
+
+1291303790 source:c:\code\mylcd\src\sdl\sdldisplay.c
+	"mylcd.h"
+	"../memory.h"
+	"../utils.h"
+	"../pixel.h"
+	"../device.h"
+	"../lstring.h"
+	"../convert.h"
+	"sdldisplay.h"
+	"lsdl.h"
+
+1272615178 source:c:\code\mylcd\src\sed1335\sed1335.c
+	"mylcd.h"
+	"../memory.h"
+	"../frame.h"
+	"../utils.h"
+	"../pixel.h"
+	"../device.h"
+	"../display.h"
+	"../lstring.h"
+	"sed1335.h"
+
+1293549928 source:c:\code\mylcd\src\sed1565\sed1565pio.c
+	"mylcd.h"
+	"../frame.h"
+	"../device.h"
+	"../display.h"
+	"../memory.h"
+	"../pixel.h"
+	"../copy.h"
+	"../lstring.h"
+	"sed1565pio.h"
+
+1293549928 source:c:\code\mylcd\src\sed1565\sed1565sio.c
+	"mylcd.h"
+	"../frame.h"
+	"../device.h"
+	"../display.h"
+	"../memory.h"
+	"../pixel.h"
+	"../copy.h"
+	"../lstring.h"
+	"sed1565sio.h"
+
+1272216604 source:c:\code\mylcd\src\serial\serial.c
+	"mylcd.h"
+	<windows.h>
+	"../device.h"
+	"../lstring.h"
+	"serial.h"
+
+1297475242 source:c:\code\mylcd\src\sync.c
+	"mylcd.h"
+	"sync.h"
+	"misc.h"
+
+1272216822 source:c:\code\mylcd\src\t6963c\t6963c.c
+	"mylcd.h"
+	"../memory.h"
+	"../utils.h"
+	"../pixel.h"
+	"../device.h"
+	"../display.h"
+	"../lstring.h"
+	"t6963c.h"
+
+1297475082 source:c:\code\mylcd\src\textbdf.c
+	"mylcd.h"
+	<string.h>
+	"memory.h"
+	"apilock.h"
+	"pixel.h"
+	"copy.h"
+	"fonts.h"
+	"textbdf.h"
+	"draw.h"
+	"chardecode.h"
+	"combmarks.h"
+	"lmath.h"
+	"api.h"
+	"sync.h"
+	"misc.h"
+
+1297475096 source:c:\code\mylcd\src\textbitmap.c
+	"mylcd.h"
+	"frame.h"
+	"device.h"
+	"memory.h"
+	"fonts.h"
+	"lstring.h"
+	"textbitmap.h"
+	"draw.h"
+	"pixel.h"
+	"copy.h"
+	"lmath.h"
+	"print.h"
+	"image.h"
+	"api.h"
+	"sync.h"
+	"misc.h"
+
+1297475252 source:c:\code\mylcd\src\tga.c
+	"mylcd.h"
+	"memory.h"
+	"frame.h"
+	"utils.h"
+	"fileio.h"
+	"tga.h"
+	"pixel.h"
+	"image.h"
+	"convert.h"
+	"sync.h"
+	"misc.h"
+	"mmx.h"
+	"mmx_rgb.h"
+
+1312657162 source:c:\code\mylcd\src\usb13700\usb13700exp.c
+	"mylcd.h"
+	"../memory.h"
+	"../device.h"
+	"../lstring.h"
+	"../misc.h"
+	"usb13700exp.h"
+
+1244039138 source:c:\code\mylcd\src\usb13700dll\display_lib_usb13700_dyn.c
+	"mylcd.h"
+	<windows.h>
+	"../usb13700/display_lib_USB13700.h"
+
+1312657162 source:c:\code\mylcd\src\usb13700dll\usb13700dll.c
+	"mylcd.h"
+	"../memory.h"
+	"../frame.h"
+	"../device.h"
+	"../pixel.h"
+	"../copy.h"
+	"../convert.h"
+	"../lstring.h"
+	"../misc.h"
+	"../pixel.h"
+	"../usb13700/display_lib_USB13700.h"
+	"usb13700dll.h"
+
+1244039176 source:c:\code\mylcd\src\usb13700libusb\libusb13700\libusb13700.c
+	"mylcd.h"
+	<usb.h>
+	"libusb13700.h"
+	"../../memory.h"
+	"../../lstring.h"
+
+1312657162 source:c:\code\mylcd\src\usb13700libusb\usb13700_libusb.c
+	"mylcd.h"
+	"../memory.h"
+	"../frame.h"
+	"../device.h"
+	"../pixel.h"
+	"../copy.h"
+	"../convert.h"
+	"../lstring.h"
+	"../pixel.h"
+	"../misc.h"
+	"usb13700_libusb.h"
+	"libusb13700/libusb13700.h"
+
+1265071582 source:c:\code\mylcd\src\usbd480dll\usbd480_lib_dyn.c
+	"mylcd.h"
+	"USBD480_lib.h"
+	"USBD480_lib_dyn.h"
+
+1242984456 c:\code\mylcd\src\usbd480dll\usbd480_lib.h
+	<windows.h>
+
+1242948060 c:\code\mylcd\src\usbd480dll\usbd480_lib_dyn.h
+	<windows.h>
+
+1287078926 source:c:\code\mylcd\src\usbd480dll\touch.c
+	"mylcd.h"
+	"../frame.h"
+	"../device.h"
+	"../memory.h"
+	"../lstring.h"
+	"../sync.h"
+	"../lmath.h"
+	"../misc.h"
+	"USBD480_lib.h"
+	"usbd480dll.h"
+	"touch.h"
+
+1243954690 c:\code\mylcd\src\usbd480dll\touch.h
+
+1289388988 source:c:\code\mylcd\src\usbd480dll\usbd480dll.c
+	"mylcd.h"
+	"../frame.h"
+	"../device.h"
+	"../memory.h"
+	"../lstring.h"
+	"../pixel.h"
+	"../convert.h"
+	"../sync.h"
+	"../misc.h"
+	"USBD480_lib.h"
+	"usbd480dll.h"
+	"touch.h"
+
+1299788742 source:c:\code\mylcd\src\usbd480hid\usbd480hid.c
+	"mylcd.h"
+	"../frame.h"
+	"../device.h"
+	"../memory.h"
+	"../lstring.h"
+	"../pixel.h"
+	"../convert.h"
+	"../sync.h"
+	"../misc.h"
+	"usbd480hid.h"
+	"../usbd480libusb/libusbd480/libusbd480.h"
+	"../usbd480libusb/libusbd480/hid.h"
+
+1297360302 c:\code\mylcd\src\usbd480libusb\libusbd480\libusbd480.h
+	<usb.h>
+
+1299335686 c:\code\mylcd\src\usbd480libusb\libusbd480\hid.h
+	<windows.h>
+	<setupapi.h>
+	<ddk/hidsdi.h>
+
+1305921584 source:c:\code\mylcd\src\usbd480libusb\libusbd480\hid.c
+	<windows.h>
+	<stdio.h>
+	<unistd.h>
+	<sys/types.h>
+	<ctype.h>
+	"mylcd.h"
+	"libusbd480.h"
+	"hid.h"
+
+1306839880 source:c:\code\mylcd\src\usbd480libusb\libusbd480\libusbd480.c
+	<stdio.h>
+	<unistd.h>
+	<sys/types.h>
+	<ctype.h>
+	"mylcd.h"
+	"../../memory.h"
+	"libusbd480.h"
+
+1297038822 source:c:\code\mylcd\src\usbd480libusb\usbd480.c
+	"mylcd.h"
+	<usb.h>
+	"../frame.h"
+	"../device.h"
+	"../memory.h"
+	"../lstring.h"
+	"../pixel.h"
+	"../convert.h"
+	"../sync.h"
+	"../misc.h"
+	"usbd480.h"
+	"libusbd480/libusbd480.h"
+
+1272286862 source:c:\code\mylcd\src\utf.c
+	"mylcd.h"
+	"utf.h"
+	"fonts.h"
+	"lstring.h"
+	"tis620.h"
+	"lmath.h"
+	"utf16.h"
+	"hz.h"
+	"gb18030.h"
+	"gb2313.h"
+	"chardecode.h"
+	"jis.h"
+	"big5.h"
+
+1246306128 c:\code\mylcd\src\tis620.h
+
+1246306128 c:\code\mylcd\src\utf16.h
+
+1246306128 c:\code\mylcd\src\hz.h
+
+1246306128 c:\code\mylcd\src\gb18030.h
+
+1246306128 c:\code\mylcd\src\jis.h
+
+1272067374 c:\code\mylcd\src\big5.h
+
+1272286862 source:c:\code\mylcd\src\utf16.c
+	"mylcd.h"
+
+1292172242 source:c:\code\mylcd\src\utils.c
+	<string.h>
+	"mylcd.h"
+	"utils.h"
+
+1297475132 source:c:\code\mylcd\src\win_sync.c
+	"mylcd.h"
+	<process.h>
+	"win_sync.h"
+	"misc.h"
+
+1244039138 source:c:\code\mylcd\src\winio\instdrv.c
+	"mylcd.h"
+	<windows.h>
+	"winiodll.h"
+
+1231427078 c:\code\mylcd\src\winio\winiodll.h
+
+1272216604 source:c:\code\mylcd\src\winio\winio.c
+	"mylcd.h"
+	<windows.h>
+	<dos.h>
+	<conio.h>
+	"../device.h"
+	"../lstring.h"
+	"winiodll.h"
+	"winio.h"
+
+1244039138 source:c:\code\mylcd\src\winio\winiodll.c
+	"mylcd.h"
+	<windows.h>
+	<winioctl.h>
+	"winiodll.h"
+

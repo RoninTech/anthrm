@@ -1,0 +1,148 @@
+<!DOCTYPE HTML PUBLIC "-//W3C//DTD HTML 3.2//EN">
+<html><head><title>HTML basics: Charset</title>
+
+    
+
+         <link rev="made" href="mailto:info@abacuss.com" title="Umejam HTML help feedback">
+         <meta name="description" content="Abacuss ltd. presents a guide to HTML 3.2 with examples in Japanese . You could find HTML basics and all HTML 3.2 elements with usage and limitations.">
+         <meta name="keywords" content="HTML, HTML 3.2, guide to HTML, learning HTML 3.2, authoring, reference, wilbur, ume jam, umejam, abacuss, abacuss ltd, osami">
+         <meta http-equiv="Content-Type" content="text/html; charset=iso-2022-jp"></head><body bgcolor="#eeeeee">
+
+<h1 align="center"><a href="http://www.abacuss.com/HTML_help/index.html">
+<img src="charSet_files/NYstyle.gif" alt="Ume Jam HTML help" border="0" height="53" width="451">
+</a>
+</h1>
+<h2 align="center">
+<img src="charSet_files/redchil5.gif" alt="HTML basics" height="47" width="116">
+
+<br>
+
+Charset - 文字コード</h2>
+<hr>
+
+<p>
+HTMLドキュメントに日本語を使う場合、文字（漢字）コードの問題があります。<br>
+文字コードには、パソコンで使われるシフトJISコード、 UNIX系で使われる EUC-JPコード、 E-mailで使われる 7ビットJIS
+コードなどがありますが、インターネットで最も一般的に使用されているのが、 E-mailで使用する ISO-2022-JP
+というキャラクターセットを使った、 7ビットJIS コードです。
+<br>
+<br>
+</p><center>
+<table border="1" cellpadding="5">
+<tbody><tr><th>漢字コード</th><th>文字セット</th> <th>備考</th></tr>
+<tr><td>ISO-2022-JP  (7ビットJIS)</td><td>ISO-2022-JP</td> <td>最も一般的です</td></tr>
+<tr><td>シフトJIS</td><td>Shift_JIS</td> <td>パソコンで使用</td></tr>
+<tr><td>EUC-JP</td><td>EUC-JP</td> <td>UNIX系で使用</td></tr>
+</tbody></table>
+</center>
+
+<p>
+<font color="#ff0000">訂正</font><br>
+テーブルの文字セットの表記を<br>
+</p><ul>
+   <li>シフトJIS： "x-sjis" から "Shift_JIS"
+   </li><li>EUC-JP： "x-euc-jp" から"EUC-JP" 
+</li></ul>
+と訂正しました。 (6/03/97)
+<p>
+Visitorの方から、シフト JIS, EUC共に <a href="http://www.iana.org/iana/">IANA</a> (Internet Assigned Numbers Authority) に登録されているとの指摘をいただき、確認した結果です。
+</p><p>
+<strong>参考</strong>
+</p><ul>
+   <li><a href="http://www.isi.edu/">ISI</a> (Information Sciences instiyute) / anonymous FTP archive<br>
+<a href="ftp://ftp.isi.edu/in-notes/iana/assignments/character-sets">ftp://ftp.isi.edu/in-notes/iana/assignments/character-sets
+</a>
+</li></ul>
+<strong>Notes:</strong><br>
+<a href="#noteToNNuser">Netscape Navigator users への注意</a>
+<hr>
+<h2>文字コードに関する問題点</h2>
+<p>
+文字化けの経験は誰もがあると思いますが、
+</p><blockquote>....................
+EUCコードとシフトJISコードは誤認識しやすく、文字化けの原因となってます。なるべくなら nkf (UNIX,DOS,OS/2 etc),
+qkc (DOS), ページブラウザ (Windows)などの変換ツールで変換しておくと良いでしょう。他の
+OSでもそれらの変換ツールが存在する筈です。 CGIスクリプトでは EUCを使わないとエラーが発生する場合があります。また、 Chimeraや
+Mosaic等、シフト JISを変換表示できないブラウザも少数ながら存在します。
+</blockquote>
+
+<p>
+今のところ日本語でページを作る場合は、
+</p><ul>
+   <li> ISO-2022-JPという文字コードを使い、
+　</li><li><a href="http://www.abacuss.com/HTML_help/wilbur/head/meta.html">META</a>タグを使って文字セットを記述しておく<br>
+e.g.<br>
+<code>&lt;meta http-equiv="Content-Type" content="text/html; charset=iso-2022-jp"&gt;</code>
+</li></ul>
+と記述しておくのがいいようです。
+<h3>Notes:</h3>
+フリーウェアーで出ているテキスト・エディターにも漢字コードを選べるものがあります。 <a href="http://www.panix.com/%7Emmkoto/umeJam/softwareFinder.html">Ume Jam Software Finder</a>でリストしている <em>J-edit</em>もその一つです。
+<hr>
+
+
+<h2>関連サイト</h2>
+<p>
+文芸批評家の加藤弘一氏が主宰する「<a href="http://www.win.or.jp/%7Ehoragai/home.html#Mokuji">ほら貝</a>」サイトの「<a href="http://www.win.or.jp/%7Ehoragai/moji/moji000.html">文字コード問題を考える</a>」には日本語の文字コードについて、あるいは、文字コードの成立に関する歴史的な背景も含めて豊富な情報が整理されて提供されています。漢字のコード化に興味のある方には必見のサイトです。
+
+</p><blockquote>
+<p>
+--------　ISO 2022JPは、頭に「ISO」とあるので、ISOが決めた規格のように思うかもしれませんが、実は <strong>ISOの規格ではありません</strong>。</p>
+<p>　ISO 2022JPは、日本のインターネットの前身というべき <strong>JUNET</strong> （Japanese University/Unix NETwork）で使われていた JUNETコード（ISO 2022を日本語用に簡略化したもの）を改良したもので、 1993年に、村井純氏により、 <a href="file://ds.internic.net/rfc/rfc1468.txt">RFC1468</a>として提案されています。--------
+</p><p align="right"><cite><a href="http://www.win.or.jp/%7Ehoragai/moji/qa.html#qa03">文字コード問題Ｑ＆Ａ - ISO 2022JPってなに？</a></cite>からの抜粋
+</p>
+</blockquote>
+
+<hr>
+<h3><a name="noteToNNuser">Netscape Navigator users への注意</a></h3>
+Netscape Navigatorでは METAタグを使って
+<pre>ISO-2022-JP
+   &lt;meta http-equiv="Content-Type" content="text/html; charset=iso-2022-jp"&gt;
+SHIFT JIS
+   &lt;meta http-equiv="Content-Type" content="text/html; charset=x-sjis"&gt;
+EUC-JP
+   &lt;meta http-equiv="Content-Type" content="text/html; charset=x-euc-jp"&gt;
+</pre>
+というふうに、文字セットを記述しておくと、Document Encoding（文書の文字コードセット）のセッティングに関係なく Auto-Detectで文字セットを判別し表示してくれます。<br>
+これは Netscapeから HTML への拡張機能ですが、「訂正」で書いたようにIANA  に シフトJIS, EUCも登録されたからといってすぐに"x-"が必要でないわけではありません。<br>
+文字コードのブラウザー表示は各ブラウザーのサポート次第ですから、暫くは従来どうりに "x-" を入れる方が安全だと思います。
+<hr>
+<strong><font color="#ff0000" size="4">Notes:</font></strong>
+<ul>
+      <li>全てのウェブ・ブラウザーが日本語をサポートしているわけではありません。
+</li></ul>
+<hr>
+<div>
+<a href="http://www.abacuss.com/HTML_help/basics/tag.html">
+<img src="charSet_files/aR.gif" alt="Next page" align="right" border="0" height="32" width="32">
+</a>
+<a href="http://www.abacuss.com/HTML_help/basics/intro.html">
+<img src="charSet_files/aL.gif" alt="Previous page" align="right" border="0" height="32" width="32">
+</a>
+
+<a href="http://www.abacuss.com/HTML_help/basics.html">
+<img src="charSet_files/up.gif" alt="a table of contens" align="right" border="0" height="32" width="32">
+</a>
+<b>Next: </b><i><a href="http://www.abacuss.com/HTML_help/basics/tag.html">タグとエレメント</a></i><br>
+<br clear="right">
+</div>
+
+<hr>
+<center>
+ [<a href="http://www.abacuss.com/HTML_help/index.html">HTML help</a>] [<a nohref="../basics.html">Basics</a>] [<a href="http://www.abacuss.com/HTML_help/wilbur.html">HTML 3.2</a>] [<a href="http://www.abacuss.com/HTML_help/beginner.html">Beginner's</a>] [<a href="http://www.abacuss.com/HTML_help/how.html">How</a>]
+</center>
+
+
+<hr>
+<center>
+<address><small>
+Copyright (C) 1997 <img src="charSet_files/abacuss3.gif" alt="Abacuss icon" height="50" width="50"><a href="mailto:info@abacuss.com">ABACUSS LTD.</a><br>
+</small>
+
+	www.abacuss.com<br>
+
+</address>
+</center>
+
+
+
+</body></html>

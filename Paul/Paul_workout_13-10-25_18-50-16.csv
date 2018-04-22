@@ -1,0 +1,10 @@
+Name=Paul
+Max HRT=177
+V02=160
+Anaerobic=142
+Aerobic=124
+Fat Burn=106
+Warm Up=89
+start_time=1382748657
+Reading,Time(s),HRT,Calories,Avg HRT,Max HRT,Min HRT
+1,0.000,0,0,0,0,255

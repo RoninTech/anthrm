@@ -1,0 +1,39 @@
+
+notes for compiling the plugins with MSys.
+
+
+add to 'configure.ac':
+VLC_ADD_PLUGIN([svmem])
+VLC_ADD_PLUGIN([usbd480])
+VLC_ADD_PLUGIN([g19])
+VLC_ADD_LIBS([usbd480],[-lmylcd -lhid -lsetupapi -llglcd])
+VLC_ADD_LIBS([g19],[-lmylcd -lhid -lsetupapi -llglcd])
+
+(lglcd' is the logitech SDK lib renamed to 'liblglcd.a)
+
+
+add to 'modules/video_output/Modules.am':
+SOURCES_svmem = svmem.c
+SOURCES_usbd480 = usbd480.c
+SOURCES_g19 = g19.c
+
+./msys-build.sh
+
+in libtool replace the line 'global_symbol_pipe=""' with:
+global_symbol_pipe="sed -n -e 's/^.*[	 ]\\([ABCDGIRSTW][ABCDGIRSTW]*\\)[	 ][	 ]*_\\([_A-Za-z][_A-Za-z0-9]*\\)\$/\\1 _\\2 \\2/p'"
+
+global_symbol_to_cdecl="sed -n -e 's/^T .* \\(.*\\)\$/extern int \\1();/p' -e 's/^[ABCDGIRSTW]* .* \\(.*\\)\$/extern char \\1;/p'"
+
+
+
+make package-win32-base-debug
+
+get vlc source via git:
+git clone git://git.videolan.org/vlc/vlc-1.1.git vlc-1.1.x --depth 3
+
+create and switch to bugfix branch
+git checkout -b 1.0x origin/1.0-bugfix
+git checkout -b 1.1.0-bugfix origin/1.1.0-bugfix
+
+switch back to master branch
+git checkout master

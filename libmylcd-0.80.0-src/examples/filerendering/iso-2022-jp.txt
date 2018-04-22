@@ -1,0 +1,192 @@
+
+Shift_JIS$B$N%(%$%j%"%9$NJQ99$K$D$$$F(B
+
+$B:#F|$O!$$_$J$5$s$K=EMW$J$*4j$$$,$"$j$^$9!%(B
+
+Java 2 SDK 1
+2$B$+$i(B"Shift_JIS"$B$N%(%$%j%"%9$,(BSJIS$B%3%s%P!<%?$+$i(BMS932$B%3%s%P!<%?$KJQ99$5$l$^$7$?$,!$(BIANA$B$N(Bcharset$BDj5A$r@5$7$/<BAu(B
+$B$9$k$?$a!$$*$h$S8=:_(BJ2EE$BJ,Ln$GH/@8$7$F$$$kJ8;z2=$1LdBj$NBP:v$H$7$F!$(BJava 2 SDK 1.4.1$B&BHG$+$i:F$S85$KLa$9$3$H$K$J$j$^$7$?!%(B
+$B$3$l$K$D$$$F$O!$<!$N%P%0%l%]!<%H$r$*FI$_$/$@$5$$!%(B
+
+Follow the IANA definition for "shift_jis" charset name
+http://developer.java.sun.com/developer/bugParade/bugs/4556882
+
+$B$3$N(B"Evaluation"$B$NMs$K!$(B3$B7n(B14$BF|IU$1$G<!$N$h$&$K5-=R$5$l$F$$$^$9!%(B
+
+"As part of the introduction of newly implemented (using NIO cs API)
+charset support in Hopper we are reappraising the aliases attributed
+to the various supported encodings. This particular change will be
+effected for 1.4.1 beta."
+
+$B!V(BHopper(1.4.1)$B$G(B(NIO$B$NJ8;z=89gJQ49(BAPI$B$rMQ$$$F(B)$B?7$7$/<BAu$5$l$?(Bcharset
+$B%5%]!<%H$NF3F~$H6&$K!$;d$?$A$O%5%]!<%H$5$l$F$$$k$5$^$6$^$JJ8;z%(%s%3!<%G%#%s%0$X$N%(%$%j%"%9$r:F8!F$$7$F$$$^$9!%(B
+$B$3$l$K4X$9$kJQ99$O!$(B1.4.1$B&BHG$+$iM-8z$K$J$k$G$7$g$&!%!W(B
+
+$B$?$@$7!$F|K\$N(BJava$B3+H/<T$,$3$N=$@5$KH?BP$7$F$7$^$&$H!$$3$NOC$ON.$l$F$7$^$&$+$b$7$l$^$;$s!%(B
+
+$B$=$3$G!$:#2s$NJQ99$N<g;]$H!$$_$J$5$s$N%W%m%0%i%`$KM?$($k1F6A$r@bL@$7$^$9!%(B
+$B$4LLE]$G$9$,!$$3$N5-;v$rFI$s$GD:$/$H6&$K!$CN?M$d4XO"It=p$J$I$K$b!$$3$NEj9F$NFbMF$rM}2r$7$FD:$/$h$&$K6(NO$r$*4j$$$7$^$9!%(B
+$B$J$*!$$3$NEj9F$HF1$8FbMF$r(Bhttp://www.ingrid.org/java/i18n/encoding/shift_jis.html 
+http://www.ingrid.org/java/i18n/encoding/shift_jis.html $B$G8x3+$7$^$9$,!$$3$3$G$OB>$K<BAu$N%A%'%C%/$d(BFAQ$B$J$I$N>pJs$b7G:\$7$F$$$/M=Dj$G$9!%(B
+$B:G8e$K!$$3$N$h$&$JJ8;z%3!<%I$NLdBj$OJ#;($G$"$j!$$J$+$J$+40A4L57g$N2sEz$H$$$&$b$N$O$"$j$^$;$s!%(B
+$B$7$+$7!$LdBj$rJ|CV$7$F1J5W$K6l$7$_B3$1$k$h$j!$0l;~E*$J0\9T$N%3%9%H$rJ'$C$F$b!$>-MhE*$KLdBj$+$i3+J|$5$l$kJ}8~$KEXNO$7$F$$$-$^$7$g$&!%(B
+
+
+$BIw4V0lMN(B (kazama@ingrid.org) NTT$BL$Mh$M$C$H8&5f=j(B
+Shift_JIS$B$H(BWindows-31J$B$NAj0cE@(B
+"Shift_JIS"$B$H(B"Windows-31J"$B$O!$(BIANA$B$K@5<0$KEPO?$5$l$F$$$kJ8;z=89g$NL>>N$G$"$j!$A0<T$O(BJIS X 0208$B$GDj$a$i$l$F$*$j!$8e<T$O(BMicrosoft$B$N%3!<%I%Z!<%8(B932$B$KAjEv$7$^$9!%(B
+$B$3$N(B2$B$D$NJ8;z=89g$K$O!$<!$N$h$&$J=EMW$J0c$$$,$"$j$^$9!%(B
+
+
+$B<}O?$5$l$F$$$kJ8;z$,0[$J$j$^$9!%(B
+$B$?$H$($P!$(BWindows-31J$B$O(BNEC$BFC<lJ8;z!$(BIBM$BFC<lJ8;z$r4^$s$G$$$^$9$,!$(BShift_JIS$B$O4^$s$G$$$^$;$s!%(B
+
+Windows-31J$B$O!$(BMS-DOS$B$K$*$1$k(BNEC$B$d(BIBM$B$N3HD%$7$?J8;z72$r<}O?$7$F$$$^$9$,!$0lIt$N=EJ#$7$F$$$kJ8;z$O!$(BUnicode$B$NF1$8%3!<%I%]%$%s%H$K3d$jEv$F$i$l$F$$$^$9!%(B
+$B$3$N$?$a$K!$0lEYFI$_9~$s$G(BUnicode$B$KJQ49$7$F$7$^$&$H!$85$N%U%!%$%k$KLa$9$3$H$,$G$-$J$$$3$H$,$"$j$^$9!%(B
+$B0lIt$NJ8;z$KBP$7$F!$(BUnicode$B$KJQ49$9$k:]$N%3!<%I%]%$%s%H$,0c$$$^$9(B($B!A(B, $B!B(B, $B!](B, $B!q(B, $B!r(B, $B"L$J$I(B)$B!%(B
+$BFC$K:G8e$N0c$$$,$"$k$?$a$K!$(BJava$B$N$h$&$J(BUnicode$B%Y!<%9$N4D6-$G$O!$C1=c$K(BWindows-31J$B$r(BShift_JIS$B$N%9!<%Q!<%;%C%H$H$7$F07$&$3$H$O$G$-$J$$$3$H$KCm0U$7$F$/$@$5$$!%(B
+"Shift_JIS"$B$r(BMS932$B$K%(%$%j%"%9$7$?7P0^(B
+
+1.1$B$,%j%j!<%9$5$l$?Ev=i$O!$(B"Shift_JIS"$B$O(BSJIS$B%3%s%P!<%?$K%(%$%j%"%9$5$l$F$$$^$7$?!%(B
+$B$7$+$7!$(BWindows-31J$B$,%5%]!<%H$5$l$F$$$J$$$?$a$K!$(BNEC$BFC<lJ8;z$J$I$,I=<($G$-$J$$!$(BUnicode$B$N%^%C%T%s%0$,0c$&5-9fN`$,J8;z2=$1$9$k$J$I$NLdBj$,@8$8$F$7$^$$$^$7$?!%(B
+$B$=$3$G!$F|K\$N(BJava$B3+H/<T$+$i!$(BWindows-31J$B$b%5%]!<%H$7$FM_$7$$$H$$$&MW5a$,=P$5$l!$$=$l$,<u$1F~$l$i$l$F!$(B1.1.8$B$H(B1.2$B$+$i(BMS932$B%3%s%P!<%?$,DI2C$5$l!$F|K\8l(B
+Windows$B4D6-$N%G%U%)%k%H$bJQ99$5$l$k$3$H$K$J$j$^$7$?!%(B
+$B$?$@$7!$$3$N;~$K(B"Shift_JIS"$B$,(BSJIS$B%3%s%P!<%?$+$i(BMS932$B%3%s%P!<%?$X$N%(%$%j%"%9$NJQ99$b$*$3$J$o$l$F$7$^$$$^$7$?!%(B
+$B$3$l$O!$(B"Shift_JIS"$B$H@k8@$7$J$,$i!$<B:]$K$O(BWindows-31J$B$rMQ$$$F$$$k>l9g$,$"$C$?$3$H$d!$$=$7$F=>Mh3F<R$,MQ$$$F$-$?(BShift
+-JIS$B$rFH<+$K3HD%$7$?J8;z=89g$N%3%s%P!<%?$r8DJL$KDI2C$9$k$+$o$j$K!$EvLL$O(BMS932$B%3%s%P!<%?$GBeMQ$7$h$&$H9M$($?$+$i$N$h$&$G$9(B.
+
+$B$b$A$m$s!$$3$l$r85$KLa$7$FM_$7$$$H$$$&MWK>$b=P$7$^$7$?$,!$Ev;~$O<u$1F~$l$i$l$^$;$s$G$7$?!%(B
+
+$B:#2s!$$3$NJQ99$,:F9M$5$l$k$3$H$K$J$C$?$N$O!$(BXML$B$d(BWeb$B%"%W%j%1!<%7%g%s$J$I!$?d>)
+(BMIME$BL>$rMQ$$$J$1$l$P$J$i$J$$%"%W%j%1!<%7%g%sJ,Ln$N3HBg$KH<$C$F!$MxE@$h$j7gE@$NJ}$,?<9o$K$J$j$D$D$"$k$3$H$,:FG'<1$5$l$?$+$i$G$9!%(B
+
+
+
+"Shift_JIS"$B$+$i(BMS932$B$X$N%(%$%j%"%9$,0z$-5/$3$9LdBj(B
+"Shift_JIS"$B$+$i(BMS932$B$X$N%(%$%j%"%9$,0z$-5/$3$9LdBj$O!$<!$NDL$j$G$9!%(B
+
+"Shift_JIS"$B$H;XDj$7$?;~$NJQ497k2L$N(BUnicode$B$N%3!<%I%]%$%s%H$,B>$H0[$J$k$N$G!$(BJava$B0J30$N4D6-$G=hM}$5$l$?>l9g$H7k2L$,0lCW$7$J$$(B ($BNc!$EE;R=pL>$J$I(B)
+Shift_JIS$B$N%G!<%?$r=hM}$7$?;~$K!$!V!A!W$J$I$N5-9fN`$KJ8;z2=$1$,@8$8$F$7$^$&(B
+
+$B6qBNE*$JNc$r5s$2$l$P!$8e<T$NLdBj$K4X$7$F$O!$$?$H$($P(BServlet$B$G$O<!$N$h$&$J2sHr%3!<%I$,;HMQ$5$l$F$-$^$7$?!%(B
+
+res.setContentType("text/html; charset=Shift_JIS");
+PrintWriter out = new PrintWriter(new OutputStreamWriter(res.getOutputStream(), "SJIS"));
+
+
+$B$^$?!$(BXML$B%Q!<%5(B"Xerces-J"$B$N$h$&$K!$(BShift_JIS$B$H(BSJIS$B%3%s%P!<%?$N@5$7$$%^%C%T%s%0$r<+A0$G<BAu$7$F2sHr$7$F$$$k$3$H$b$"$j$^$9!%(B
+$B$7$+$7!$(BJavaServer Pages$B$G$O!$(B"SJIS"$B$O?d>)(BMIME$BL>$G$O$J$$$3$H$rL5;k$7$F!$<!$N$h$&$K$;$6$k$rF@$^$;$s!%(B
+
+&lt;%@ page contentType="text/html; charset=SJIS" %&gt;
+($BCm(B: $B$3$N%3!<%I$OK\Ev$O8m$j$G$9(B)
+
+1.4$B$+$i$O!$?d>)(BMIME$BL>$rMQ$$$F$$$/J}?K$K$J$j!$(Bjava.nio.charset.Charset.isRegistered()
+$B$H$$$&%a%=%C%I$G$3$N@5Ev@-$rMF0W$K%A%'%C%/$G$-$k$N$G!$6a$$>-Mh$K!$$3$NJ}K!$b;H$($J$/$J$j$=$&$G$9!%(B
+$B$D$^$j!$$3$N$^$^$G$O(BJava$B$G(B"Shift_JIS"$B$H(B"Windows-31J"$B$r;H$$J,$1$F$$$/$3$H$bIT2DG=$K$J$k$+$b$7$l$^$;$s!%(B
+$B:#2s$N=$@5$N1F6AHO0O$HBP=hJ}K!(B
+$B:#2s$N=$@5$N1F6AHO0O$HBP=hJ}K!$O!$<!$NDL$j$G$9!%(B
+
+
+1, $B%W%m%0%i%`$d%G!<%?!$DL?.$G(B"Shift_JIS"$B$HL@<(E*$K;XDj$7$F$$$J$$(B/$B$5$l$J$$>l9g(B
+
+$B%W%m%0%i%`$N<B9T$K1F6A$O$"$j$^$;$s!%(B
+
+2, $B%W%m%0%i%`$d%G!<%?!$DL?.$G(B"Shift_JIS"$B$HL@<(E*$K;XDj$7$F$$$k(B/$B$5$l$k>l9g(B
+
+
+$B$[$H$s$I$,(BWindows-31J$B$rMQ$$$?%G!<%?$r07$C$F$$$k$K$b$+$+$o$i$:!$8m$C$F(B"Shift_JIS"$B$H;XDj$7$F$$$?>l9g$@$H;W$$$^$9$,!$3HD%$5$l(B
+$B$?J8;z$d0lIt$N5-9fN`(B($B!A(B, $B!B(B, $B!](B)$B$,(B'?'$B$KJ8;z2=$1$7$^$9$N$G!$@5$7$/(B"Windows-31J"$B$H;XDj$7$F$/$@$5$$!%(B
+$B$J$*!$$3$N=$@5$O(B1.4.1b$B$rBT$DI,MW$O$"$j$^$;$s!%(B
+a) Servlet$B$N>l9g(B
+res.setContentType("text/html; charset=Windows-31J");
+PrintWriter out = res.getWriter();
+
+b) JSP$B$N>l9g(B
+&lt;%@ page contentType="text/html; charset=Windows-31J" %&gt;
+
+
+
+3, "MS932"$B$HL@<(E*$K;XDj$7$F$$$?>l9g(B
+
+$B%W%m%0%i%`$N<B9T$K1F6A$O$"$j$^$;$s!%(B
+$B$?$@$7!$(B"Windows-31J"$B$K=q$-49$($k$3$H$rA&$a$^$9!%(B
+$B$J$*!$$3$N=$@5$O(B1.4.1b$B$rBT$DI,MW$O$"$j$^$;$s!%(B
+
+4, "SJIS"$B$HL@<(E*$K;XDj$7$F$$$?>l9g(B
+
+$B%W%m%0%i%`$N<B9T$K1F6A$O$"$j$^$;$s!%(B
+1.4.1b$B0J9_$G$O!$(B"Shift_JIS"$B$G$b@5$7$/F0:n$9$k$h$&$K$J$j$^$9$N$G!$(B"Shift_JIS"$B$K=q$-49$($F$/$@$5$$!%(B
+
+
+FAQ
+Q $B@5$7$/;XDj$5$l$F$$$k$+$I$&$+$O!$$I$N$h$&$K%A%'%C%/$G$-$^$9$+(B?
+A Unicode$B$N%^%C%T%s%0$,0c$&J8;z(B ($B!A(B, $B!B(B, $B!](B)$B$,2=$1$F$$$J$$$+$r%A%'%C%/$7$F$/$@$5$$!%(B
+
+Q MS932$B%3%s%P!<%?$,GQ;_$5$l$k$N$G$7$g$&$+(B?
+A NIO$BBP1~$GL>A0$OJQ$o$k$+$b$7$l$^$;$s(B($B8_49@-$O0];}$5$l$^$9(B)$B$,!$8=:_$HEy2A$J%3%s%P!<%?$,B8B3$9$k$O$:$G$9!%(B
+
+Q Windows$B4D6-$N%G%U%)%k%HJ8;z%(%s%3!<%G%#%s%0$,JQ99$5$l$k$N$G$9$+(B?
+A Windows$B4D6-$N%G%U%)%k%H$NL>A0$,JQ$o$k$+$b$7$l$^$;$s$,!$8=:_$HEy2A$J%3%s%P!<%?$,;HMQ$5$l$k$O$:$G$9!%(B
+
+Q $B$J$<(BUnicode$B$X$N%^%C%T%s%0$K0c$$$,=P$?$N$G$7$g$&$+(B?
+A $B<!$N$h$&$JM}M3$+$i$N$h$&$G$9!%(B
+
+Unicode$B$K$O!$F1$8!$$^$?$OHs>o$K;w$?%0%j%U(B($BJ8;z$N7A(B)$B$r;}$DJ8;z$,J#?tDj5A$5$l$F$$$^$9!%(B
+Shift_JIS$B$G$O!$(BISO$B$NF1$8L>A0$NJ8;z$rBP1~$5$;$k$H$$$&J}?K$K=>$C$F$$$^$9$,!$(BWindows-31J$B$NJ}?K$O$=$&$G$O$J$+$C$?$+$i$G$9!%(B
+Windows-31J$B$G$O!$H>3Q5-9fN`$bA}$d$5$l$F$*$j!$$=$l$K1~$8$FA43Q$NJ8;z$,JL$N%3!<%I%]%$%s%H$KBP1~$5$l$F$$$^$9!%(B
+
+Q Java$B$G$O%Y%s%@8GM-J8;z$r;HMQ$7$F$O$$$1$J$$$N$G$7$g$&$+(B?
+A $B$=$&$G$O$"$j$^$;$s!%(B
+$B%G!<%?$K;HMQ$5$l$F$$$kJ8;z$d!$(BUnicode$B$X$N%^%C%T%s%0$K0c$$$dMI$l$,=P$J$$$G@5$7$/>pJs8r49$G$-$k$h$&$K!$@5$7$/6hJL$7$F;HMQ$7$F$$$-$^$7$g$&$H$$$&$3$H$G$9!%(B
+
+Q Java$B$G(BNEC$B4A;z%3!<%I$r;HMQ$7$?$$>l9g$K$O!$$I$&$9$l$P$h$$$G$9$+(B?
+A Windows-31J$B$X$N0\9T$,L\E*$N>l9g$K$O!$(BWindows-31J$B$r;HMQ$7$^$9!%(B
+$B$?$@$7!$0lEYJQ49$7$?8e$K(BNEC$B4A;z%3!<%I$KLa$9$3$H$O$G$-$J$$(B(
+http://www.microsoft.com/japan/support/kb/articles/JP170/5/59.asp 
+http://www.microsoft.com/japan/support/kb/articles/JP170/5/59.asp 
+$B;2>H(B)$B$N$G!$Aj8_JQ49$r$*$3$J$$$?$$>l9g$K$O!$(B1.4$B$GDI2C$5$l$?J8;z=89gJQ49(BSPI$B$rMQ$$$F!$?7$7$$%3%s%P!<%?$r:n@.$7$F$/$@$5$$!%(B
+
+Q $B1_5-9f(B (0x5C)$B$N(BUnicode$B$X$N%^%C%T%s%0$OJQ99$5$l$^$9$+(B?
+A $B8=:_!$(B0x5C$B$O!$(BSJIS$B%3%s%P!<%?$H(BMS932$B%3%s%P!<%?$N$I$A$i$b(BU+005C$B$KJQ49$7$F$$$^$9$N$G!$JQ99$O$J$$$H;W$$$^$9!%(B
+
+Q Xerces-J$B$O!$(B"Shift_JIS"$B$H(B"Windows-31J"$B$r$I$N$h$&$K07$C$F$$$^$9$+(B?
+A Xerces-J$B$O!$(B"Shift_JIS"$B$H;XDj$5$l$?>l9g$K$O(BSJIS$B%3%s%P!<%?$r;HMQ$7$F$$$^$9!%(B
+"Windows-31J"$B$O$^$@%5%]!<%H$5$l$F$$$J$$$h$&$G$9$,!$>-MhE*$K%5%]!<%H$5$l$k$H;W$$$^$9!%(B
+
+Q Unicode$B$+$i(B"Shift_JIS"$B$d(B"Windows-31J"$B$KJQ49$9$k;~$K!$B?BP0l$KBP1~$5$;$l$P!$J8;z2=$1$OKI$2$k$N$G$O(B?
+A $B$=$NDs0F$b$*$3$J$$$^$7$?$,!$5Q2<$5$l$^$7$?!%(B
+$B$3$NM}M3$H$7$F$O!$$=$l$>$l$NJ8;z=89g$N(BUnicode$B$X$N%^%C%T%s%0$O$=$N@)DjCDBN$,7hDj$9$k$b$N$G$"$k$3$H!$$^$?B?BP0l$KBP1~$9$k%^%C%T%s%0$r$*$3$J(B
+$B$&$HAj8_JQ49(B(round-trip conversion, $BJQ49$7$?8e$K5UJQ49$9$l$P85$KLa$k<oN`$NJQ49(B)$B$,B;$J$o$l$k$+$i$N$h$&$G$9!%(B
+
+
+$BIUO?(BA Shift_JIS$B$H(BWindows-31J$B$NDj5A(B
+
+$B$3$l$O!$(BIANA$B$KEPO?$5$l$F$$$kJ8;z=89gL>$N%j%9%H(B (
+http://www.iana.org/assignments/character-sets http://www.iana.org/assignments/character-sets 
+$B$+$i!$(BShift_JIS$B$H(BWindows-31J$B$NDj5A$r<h$j=P$7$F!$F|K\8lLu$7$?$b$N$G$9!%(B
+
+$BL>A0(B: Shift_JIS ($B?d>)(BMIME$BL>(B)
+MIBenum: 17
+$BE55r(B: $B$3$NJ8;z=89g$O!$(BcsHalfWidthKatakana$B$K!$(BJIS X 0208$B$N?^7AJ8;z$rDI2C(B
+      $B$7$?3HD%$G$9!%$3$N(BCCS$B$O!$(BJIS X0201:1997$B$H(BJIS X0208:1997$B$G$9!%(B
+      $B40A4$JDj5A$O!$(BJIS X0208:1997$B$NIUO?(B1$B$G8+$k$3$H$,$G$-$^$9!%(B
+      $B$3$NJ8;z=89g$O!$%H%C%W%l%Y%k$N%a%G%#%"%?%$%W(B"text"$B$K;HMQ$G$-$^$9!%(B
+$B%(%$%j%"%9(B: MS_Kanji 
+$B%(%$%j%"%9(B: csShiftJIS
+
+
+$BL>A0(B: Windows-31J
+MIBenum: 2024
+$BE55r(B: Windows$B$NF|K\8l$G$9!%(BShift_JIS$B$K!$(BNEC$BFC<lJ8;z(B (13$B6h(B)$B!$(BNEC$BA*Dj(BIBM
+      $BFC<lJ8;z(B (89$B6h!A(B92$B6h(B), IBM$BFC<lJ8;z(B (115$B6h!A(B119$B6h(B)$B$r4^$a$?3HD%$G$9!%(B
+      $B$3$N(BCCS$B$O!$(BJIS X0201:1997$B!$(BJIS X0208:1997$B$*$h$S>e5-$N3HD%$G$9!%(B
+      $B$3$NJ8;z=89g$O!$%H%C%W%l%Y%k$N%a%G%#%"%?%$%W(B"text"$B$K;HMQ$G$-$^$9$,!$(B
+      $B8BDj$5$l$?MQES!$$^$?$OFC<lMQES$KMQ$$$^$9(B (RFC2278$B;2>H(B)$B!%(B
+PCL$B5-9f%;%C%H(B ID:  19K
+$B%(%$%j%"%9(B: csWindows31J
+$BIUO?(B2 Shift_JIS$B$H(BWindows-31J$B$N(BUnicode$B$X$N%^%C%T%s%0$N0c$$$N;29M;qNA(B
+$B$J$*!$$3$NLdBj$K$D$$$F$O!$<!$N;qNA$K>\$7$/@bL@$5$l$F$$$^$9!%(B
+
+$BF|K\8l$N(BUnicode$B%Y%s%@0MB8J8;zI=(B http://www.ingrid.org/java/i18n/unicode.html 
+Java$B$NF|K\8l4XO"%3%s%P!<%?$K$*$1$k%^%C%T%s%0$N0c$$(B http://www.ingrid.org/java/i18n/encoding/ja-conv.html 
+XML$BF|K\8l%W%m%U%!%$%k(B http://www.y-adagio.com/public/standards/tr_xml_jpf/toc.htm 
